@@ -27,10 +27,7 @@ function UserInfo(props) {
               ${city}
               ${zipcode}
 
-              (
-                ${geo.lat},
-                ${geo.lng}
-              )
+              (${geo.lat}, ${geo.lng})
             `}
           </p>
         </div>

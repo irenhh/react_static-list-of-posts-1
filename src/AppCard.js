@@ -31,9 +31,7 @@ function AppCard() {
         <div className="user-post-wrapper">
           {user.posts.map(post => (
             <div className="user-post">
-              <UserPost
-                post={post}
-              />
+              <UserPost post={post} />
             </div>
           ))}
         </div>
